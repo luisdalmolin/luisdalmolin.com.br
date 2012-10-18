@@ -1,0 +1,96 @@
+/* 
+    Document   : style-regular.css
+    Created on : 21/01/2012, 21:27:00
+    Author     : Luís Dalmolin
+    Description:
+        CSS do site em resolução grande
+*/
+
+
+/* container */ 
+#main, #header-content {
+    width:95%;
+    margin:0 auto; }
+
+/* icones-sociais */ 
+.icones-sociais {
+    float:right;
+    width:auto;
+    margin:0.3em 0 0 0; }
+    .icones-sociais .icone-social {
+        display:inline-block;
+        text-indent:-99999px;
+        width:24px; 
+        height:24px;
+        background-repeat:no-repeat;
+        overflow:hidden; }
+        .icones-sociais .icone-social-github {
+            background-image:url(../img/icones/24/github.png);
+            background-position:0 0; }
+            .icones-sociais .icone-social-github:hover {
+                background-position:0 bottom; }
+            
+        .icones-sociais .icone-social-googleplus {
+            background-image:url(../img/icones/24/googleplus.png);
+            background-position:0 0; }
+            .icones-sociais .icone-social-googleplus:hover {
+                background-position:0 bottom; }
+            
+        .icones-sociais .icone-social-facebook {
+            background-image:url(../img/icones/24/facebook.png);
+            background-position:0 0; }
+            .icones-sociais .icone-social-facebook:hover {
+                background-position:0 bottom; }
+            
+        .icones-sociais .icone-social-twitter {
+            background-image:url(../img/icones/24/twitter.png);
+            background-position:0 0; }
+            .icones-sociais .icone-social-twitter:hover {
+                background-position:0 bottom; }
+            
+        .icones-sociais .icone-social-linkedin {
+            background-image:url(../img/icones/24/linkedin.png);
+            background-position:0 0; }
+            .icones-sociais .icone-social-linkedin:hover {
+                background-position:0 bottom; }
+
+        .icones-sociais .icone-social-rss {
+            background-image:url(../img/icones/24/rss.png);
+            background-position:0 0; }
+            .icones-sociais .icone-social-rss:hover {
+                background-position:0 bottom; }
+
+
+/* conteudo principal */ 
+.content {
+    float:left;
+    padding:0 2.5% 0 0;
+    border-right:1px solid #f0dddd;
+    width:62.5%; }
+
+        
+/* sidebar */ 
+.sidebar {
+    width:32.5%;
+    float:right; }
+
+    /* widget */ 
+    .sidebar .widget {
+        padding:1.5em 1.5em;
+        margin:0 0 2em 0;
+        box-shadow:0 0 20px #CCC;
+        -webkit-box-shadow:0 0 20px #CCC;
+        -moz-box-shadow:0 0 20px #CCC;
+        background:#FFF;
+        border:none; }
+    .sidebar .widget-ad {
+        padding:1.5em 0; }
+        .sidebar .widget-ad .ad-box {
+            width:300px;
+            margin:0 auto; }
+        
+
+/* escondendo a div do ad */ 
+@media screen and ( max-width:975px ) {
+    .sidebar .widget-ad {
+        display:none; }
