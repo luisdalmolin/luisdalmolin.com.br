@@ -40,6 +40,8 @@
         <header id="header">
             <div id="header-content">
                 <div class="float-left id-site">
+                    <img src="/img/luisdalmolin-puc.jpg" alt="Luís Dalmolin" class="header-content-img" />
+
                     <<?=is_home() ? 'h1' : 'div'?> class="header-title">
                         <a href="<?=URL?>"><?=bloginfo('title')?></a> 
                     </<?=is_home() ? 'h1' : 'div'?>>
@@ -52,15 +54,6 @@
                     <a class="icone-social icone-social-linkedin" href="<?=SOCIAL_LINKEDIN?>">LinkedIn</a>
                     <a class="icone-social icone-social-rss" href="<?=SOCIAL_RSS?>">RSS</a>
                 </div><!-- .icones-sociais --> 
-                
-                <?php /* 
-                <div class="float-right box-search">
-                    <form action="<?=URL?>" method="get">
-                        <input type="search" name="q" /> 
-                        <input type="submit" value="Buscar" required="true" /> 
-                    </form>
-                </div><!-- .float-right --> 
-                */ ?> 
                 
                 <div class="clear"></div>
             </div><!-- #header-content --> 
