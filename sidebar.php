@@ -27,7 +27,7 @@
     */
     ?>
 
-    <a href="https://www.digitalocean.com/?refcode=0ae0605892ab" target="_blank" rel="external" title="Servidor bom e barato">
+    <a href="https://www.digitalocean.com/?refcode=0ae0605892ab" target="_blank" rel="external" title="Digital Ocean - Servidores Clouds com SSD">
         <img src="<?=TEMPLATE?>img/digitalocean-vertical-eps.png" alt="Digital Ocean" width="200px" />
     </a>
 </div><!-- .widget --> 
