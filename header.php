@@ -40,11 +40,13 @@
         <header id="header">
             <div id="header-content">
                 <div class="float-left id-site">
-                    <img src="<?=TEMPLATE?>img/luisdalmolin-puc.jpg" alt="Luís Dalmolin" class="header-content-img" />
+                    <img src="/wp-content/themes/luisdalmolin/img/luisdalmolin-puc.jpg" alt="Luís Dalmolin" class="header-content-img" />
 
                     <<?=is_home() ? 'h1' : 'div'?> class="header-title">
                         <a href="<?=URL?>"><?=bloginfo('title')?></a> 
                     </<?=is_home() ? 'h1' : 'div'?>>
+
+                    <div class="clear"></div>
                 </div><!-- .float-left --> 
                 
                 <div class="icones-sociais">

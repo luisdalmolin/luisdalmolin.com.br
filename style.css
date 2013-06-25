@@ -408,16 +408,19 @@ code, b {
 
 /* header */ 
 header {
-    background:url(img/bgmenu.png) repeat;
-    padding:2em 0 0 0;
-    border-bottom:1px solid #CCC;
-    margin:0 0 2em 0; }
+    background: url(img/bgmenu.png) repeat;
+    padding: 2em 0 0 0;
+    border-bottom: 1px solid #CCC;
+    margin: 0 0 2em 0; 
+}
     
     .header-title {
-        font-family:'Coming Soon', sans-serif;
-        margin:0 0 1em;
-        padding:0 0 0 0.9em;
-        font-size:24px !important; }
+        float: left;
+        font-family: 'Coming Soon', sans-serif;
+        margin: 0 0 0.8em;
+        padding: 0 0 0 0.9em;
+        font-size: 24px !important; 
+    }
     
     #header-content {
         padding: 0 0 0 0;
@@ -425,12 +428,12 @@ header {
 
         .header-content-img {
             float: left;
-            margin: 0 15px;
+            margin: 0 15px 0;
             height: 50px;
         }
 
     header h1 {
-        margin-bottom:1em; }
+        margin-bottom: 1em; }
     
 
 /* post */ 
