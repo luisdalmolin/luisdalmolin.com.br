@@ -5,14 +5,14 @@
  * @author Luís Dalmolin <luis.nh@gmail.com> 
  */ 
 ?>
-<div class="widget widget-ad">
+<div class="widget widget-ad" style="text-align: center">
     <?php 
+    /*
     if( !is_page() ) : 
         ?>
         <div class="ad-box">
             <script type="text/javascript"><!--
             google_ad_client = "ca-pub-5890576079495680";
-            /* Blog Dalmolin */
             google_ad_slot = "0929216115";
             google_ad_width = 300;
             google_ad_height = 250;
@@ -24,7 +24,12 @@
         </div><!-- .ad-box --> 
         <?php 
     endif;
+    */
     ?>
+
+    <a href="https://www.digitalocean.com/?refcode=0ae0605892ab" target="_blank" rel="external" title="Servidor bom e barato">
+        <img src="<?=TEMPLATE?>img/digitalocean-vertical-eps.png" alt="Digital Ocean" width="200px" />
+    </a>
 </div><!-- .widget --> 
 
 <?php 
