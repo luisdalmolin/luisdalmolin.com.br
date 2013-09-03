@@ -7,8 +7,11 @@
 
 /* header */
 get_header();
+?>
 
+<h1 class="content-subhead">Blog</h1>
 
+<?php
 while( have_posts() ) :
     the_post();
     ?>
@@ -35,16 +38,14 @@ while( have_posts() ) :
 endwhile;
 ?>
 
-<div class="navegacao">
-    <div class="float-left">
+<div class="pure-g">
+    <div class="pure-u-1-2">
         <?php next_posts_link('&laquo; Posts mais antigos') ?>
-    </div><!-- .float-left -->
+    </div>
 
-    <div class="float-right">
+    <div class="pure-u-1-2" style="text-align: right">
         <?php previous_posts_link('Novos posts &raquo;') ?>
-    </div><!-- .float-right -->
-
-	<div class="clear"></div>
+    </div>
 </div><!-- .navegacao -->
 
 

@@ -48,11 +48,9 @@
                             <a class="pure-button" href="<?=URL?>">Blog</a>
                         </li>
 
-                        <!--
                         <li class="nav-item">
-                            <a class="pure-button" href="#">Projetos</a>
+                            <a class="pure-button" href="<?=URL?>projetos">Projetos</a>
                         </li>
-                        -->
                     </ul>
                 </nav>
             </header>
