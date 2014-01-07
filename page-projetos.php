@@ -52,6 +52,21 @@ get_header();
     </div>
 </section><!-- .post -->
 
+<section class="post">
+    <header class="post-header">
+        <h2 class="post-title">escapecriativacao\laravel-bootstrap</h2>
+    </header><!-- .post-header -->
+
+    <div class="post-description">
+        <p>Um bootstrap do Laravel 4 utilizado na <a href="http://www.escape.ppg.br" target="_blank">Escape Criativação</a> que utiliza <a href="http://sass-lang.com/" target="_blank" rel="external">SASS</a>,
+        <a href="http://coffeescript.org/" target="_blank" rel="external">Coffeescript</a> e <a href="http://gruntjs.com/" target="_blank" rel="external">Grunt</a> para .</p>
+    </div><!-- .post-description -->
+
+    <div class="post-links">
+        <a href="https://github.com/escapecriativacao/laravel-bootstrap" class="pure-button pure-button-primary">Ver projeto &gt; </a>
+    </div>
+</section><!-- .post -->
+
 <?php
 # footer
 get_footer();
