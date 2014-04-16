@@ -67,6 +67,20 @@ get_header();
     </div>
 </section><!-- .post -->
 
+<section class="post">
+    <header class="post-header">
+        <h2 class="post-title">escapework\laravel-asset-versioning</h2>
+    </header><!-- .post-header -->
+
+    <div class="post-description">
+        <p>Biblioteca para versionar os assets da sua aplicação em Laravel em produção (para evitar cache).</p>
+    </div><!-- .post-description -->
+
+    <div class="post-links">
+        <a href="https://github.com/EscapeWork/laravel-asset-versioning" class="pure-button pure-button-primary">Ver projeto &gt; </a>
+    </div>
+</section><!-- .post -->
+
 <?php
 # footer
 get_footer();
